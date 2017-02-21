@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Thin";
+    src: url('../fonts/Quicksand/Quicksand-Light.ttf');
+	font-style: normal;
+	letter-spacing: 0px;
+}
+body{
+	font-family: "Thin";
+}
+
+.level-bar-area.lv-100{
+	width: 100%;
+}
+.level-bar-area.lv-85{
+	width: 85%;
+}
+.level-bar-area.lv-70{
+	width: 70%;
+
+}
+.level-bar-area.lv-45{
+	width: 45%;
+
+}
+@keyframes lineGrow {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+.level-bar{
+	border-style:hidden;
+	border-radius: 5px;
+	background: #fff;
+	font-size: 2em;
+	color: #222334;
+	animation-name: lineGrow;
+    animation-duration: 3s
+}
+.no-padding{
+	padding: 0px;
+}
+.img-thumbnail{
+	border:none;
+}
+h1, h2, h3, h4, .lead, .btn, .navbar a, .language-score, .level-bar, .language-score-word, .country-word, .timeline-block  {
+	font-family: "Thin";
+}
+.language-score, .language-score-word, .country-word{
+	font-size: 2.3em;
+	color: white;
+}
+.language-score-word{
+	font-size: 1.2em;
+}

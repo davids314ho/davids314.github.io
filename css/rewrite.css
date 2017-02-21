@@ -1,0 +1,345 @@
+/*viewport original css----------------------------------------------------*/
+/* line 2, ../sass/rewrite.scss */
+.no-margin {
+  margin-right: 0;
+}
+
+/* line 6, ../sass/rewrite.scss */
+.viewport {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+/* line 10, ../sass/rewrite.scss */
+.viewport.window-style {
+  height: 110px;
+  width: 110px;
+}
+/* line 14, ../sass/rewrite.scss */
+.viewport.window-style a img {
+  width: 100px;
+}
+/* line 17, ../sass/rewrite.scss */
+.viewport.window-style a span {
+  font-size: 1.2em;
+  display: none;
+  padding-top: 40%;
+}
+/* line 24, ../sass/rewrite.scss */
+.viewport.mobile-style, .viewport.detail-style {
+  height: 70px;
+  width: 70px;
+}
+/* line 28, ../sass/rewrite.scss */
+.viewport.mobile-style a img, .viewport.detail-style a img {
+  width: 70px;
+}
+/* line 31, ../sass/rewrite.scss */
+.viewport.mobile-style a span, .viewport.detail-style a span {
+  font-size: 0.8em;
+  display: inline;
+  padding-top: 60%;
+}
+/* line 38, ../sass/rewrite.scss */
+.viewport.detail-style {
+  float: left;
+}
+/* line 41, ../sass/rewrite.scss */
+.viewport.detail-style a span {
+  font-size: 0.65em;
+}
+/* line 43, ../sass/rewrite.scss */
+.viewport.detail-style a span.db-s-size {
+  padding-top: 30%;
+}
+/* line 49, ../sass/rewrite.scss */
+.viewport a {
+  display: block;
+  position: relative;
+}
+/* line 52, ../sass/rewrite.scss */
+.viewport a span {
+  font-weight: bold;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  z-index: 100;
+}
+/* line 61, ../sass/rewrite.scss */
+.viewport a em {
+  display: block;
+  font-size: 0.45em;
+  font-weight: normal;
+}
+
+/* line 70, ../sass/rewrite.scss */
+.dark-background {
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  background-color: rgba(15, 15, 15, 0.6);
+  color: #fff;
+}
+/* line 76, ../sass/rewrite.scss */
+.dark-background em {
+  color: #ccc;
+}
+/* line 79, ../sass/rewrite.scss */
+.dark-background.db-s-size {
+  width: 50px;
+  height: 50px;
+}
+
+/*rewrite timeline------------------------------------------------------*/
+/* line 86, ../sass/rewrite.scss */
+.no-push-top {
+  margin-top: -5px !important;
+}
+
+/*one page------------------------------------------------------------- */
+/* line 92, ../sass/rewrite.scss */
+.icon-bar {
+  background-color: black;
+}
+
+/* line 97, ../sass/rewrite.scss */
+.navbar a {
+  color: black;
+}
+
+/* line 101, ../sass/rewrite.scss */
+.alt {
+  background-color: #ededed;
+}
+/* line 103, ../sass/rewrite.scss */
+.alt.affix {
+  background-color: #ededed;
+}
+/* line 107, ../sass/rewrite.scss */
+.alt li a:hover, .alt li.active, .alt li a:focus {
+  color: white;
+  background-color: #d91616;
+}
+
+/* line 114, ../sass/rewrite.scss */
+.blurb {
+  padding: 120px 0px 30px 0px !important;
+}
+
+/* line 117, ../sass/rewrite.scss */
+.callout {
+  padding-top: 0;
+  background: none repeat scroll 0 0 #3a3c42;
+  height: auto !important;
+  overflow: auto !important;
+}
+
+/* line 123, ../sass/rewrite.scss */
+.callout-layout {
+  background: url("../images/background2.png") no-repeat fixed center center/cover transparent;
+  top: 3%;
+  height: auto;
+  overflow: auto;
+}
+
+/* line 129, ../sass/rewrite.scss */
+footer {
+  padding: 20px 0;
+}
+
+/*rewrite bootstrap---------------------------------------------------- */
+/* line 134, ../sass/rewrite.scss */
+a:focus {
+  outline: none !important;
+  outline-offset: -2px;
+}
+
+/* line 138, ../sass/rewrite.scss */
+.sm-size {
+  width: 80px;
+}
+
+/* line 141, ../sass/rewrite.scss */
+.xs-size {
+  width: 70px !important;
+}
+
+/* line 144, ../sass/rewrite.scss */
+.xxs-size {
+  width: 50px !important;
+}
+
+/* line 147, ../sass/rewrite.scss */
+.show-skill-mobile {
+  width: 33.333%;
+  height: 80px;
+  float: left;
+}
+
+/* line 152, ../sass/rewrite.scss */
+.col-md-offset-7-3 {
+  margin-left: 60%;
+}
+
+/*flot picture--------------------------------------------------------- */
+/* line 156, ../sass/rewrite.scss */
+.scene {
+  padding: 0;
+  margin: 0;
+}
+
+/*awesome icon--------------------------------------------------------- */
+/* line 162, ../sass/rewrite.scss */
+.fa-6x {
+  font-size: 6em !important;
+}
+/* line 164, ../sass/rewrite.scss */
+.fa-6x:hover {
+  font-size: 6.5em !important;
+}
+
+/* line 168, ../sass/rewrite.scss */
+.fa-7x {
+  font-size: 7em !important;
+}
+/* line 170, ../sass/rewrite.scss */
+.fa-7x:hover {
+  font-size: 7.5em !important;
+}
+
+/* line 174, ../sass/rewrite.scss */
+.fa-8x {
+  font-size: 8em !important;
+}
+/* line 176, ../sass/rewrite.scss */
+.fa-8x:hover {
+  font-size: 8.5em !important;
+}
+
+/*customer------------------------------------------------------------- */
+/* line 183, ../sass/rewrite.scss */
+.timeline-block {
+  padding-top: 50px;
+  font-family: 'PT Sans', Sans-Serif;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 191, ../sass/rewrite.scss */
+.no-newline {
+  display: inline !important;
+}
+
+/* line 194, ../sass/rewrite.scss */
+.more-space-1 {
+  padding: 0px 0px 30px 0px;
+}
+
+/* line 197, ../sass/rewrite.scss */
+.mypic-sm {
+  width: 50%;
+  border-radius: 60%;
+}
+
+/* line 201, ../sass/rewrite.scss */
+.sm-font-size {
+  font-size: 0.8em;
+}
+
+/* line 205, ../sass/rewrite.scss */
+.gray-font h1, .gray-font h2, .gray-font h3, .gray-font h4, .gray-font h5, .gray-font h6 {
+  color: #5A5A5A;
+}
+
+/* line 210, ../sass/rewrite.scss */
+.white-font h1, .white-font h2, .white-font h3, .white-font h4, .white-font h5, .white-font h6 {
+  color: white;
+}
+
+/* line 214, ../sass/rewrite.scss */
+.no-padding-right {
+  padding-right: 0px;
+}
+
+/* line 217, ../sass/rewrite.scss */
+.dynamic-font {
+  font-size: 1.1em;
+}
+
+/* line 221, ../sass/rewrite.scss */
+.contact-info:hover {
+  cursor: pointer;
+}
+/* line 224, ../sass/rewrite.scss */
+.contact-info.sm-size {
+  width: 100px;
+  height: 100px;
+  line-height: 90px;
+}
+/* line 230, ../sass/rewrite.scss */
+.contact-info i {
+  border: none;
+}
+/* line 232, ../sass/rewrite.scss */
+.contact-info i.linkedin-color {
+  color: #0077b5;
+}
+/* line 235, ../sass/rewrite.scss */
+.contact-info i.facebook-color {
+  color: #3b5998;
+}
+/* line 239, ../sass/rewrite.scss */
+.contact-info i.email-color:hover {
+  color: #dd5555;
+}
+
+/* line 246, ../sass/rewrite.scss */
+.google-map-block {
+  width: 100%;
+  height: 300px;
+}
+
+/*mobile style*/
+@media (max-width: 768px) {
+  /*rewrite timeline*/
+  /* line 255, ../sass/rewrite.scss */
+  .timelineFlat .item_open, .timelineFlat .item {
+    width: 350px !important;
+  }
+
+  /* line 259, ../sass/rewrite.scss */
+  .mypic-sm {
+    width: 100%;
+    border-radius: 60%;
+  }
+
+  /* line 264, ../sass/rewrite.scss */
+  .dark-background {
+    width: 70px;
+  }
+  /* line 266, ../sass/rewrite.scss */
+  .dark-background.db-s-size {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* line 272, ../sass/rewrite.scss */
+  .viewport.detail-style {
+    float: left;
+  }
+  /* line 275, ../sass/rewrite.scss */
+  .viewport.detail-style a span {
+    font-size: 0.55em;
+  }
+  /* line 277, ../sass/rewrite.scss */
+  .viewport.detail-style a span.db-s-size {
+    padding-top: 25%;
+  }
+}
+/* line 286, ../sass/rewrite.scss */
+.timelineFlat.timelineFlatBlog .item .post_date{
+  box-sizing:initial;
+}
