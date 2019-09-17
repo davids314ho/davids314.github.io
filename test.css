@@ -1,0 +1,27 @@
+#gt_mspf0520 .gt_contents .gt_title > span{
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #ec6d78;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.0);
+  background-image: linear-gradient(114deg, #fad19c, #f6aaaa 48%, #ec6d78);
+  border: none;
+
+}
+
+#gt_mspf0520 .gt_contents .gt_message > span{
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #ec6d78;
+  line-height: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.0);
+  background-image: linear-gradient(114deg, #fad19c, #f6aaaa 48%, #ec6d78);
+}
+
+@media all and (-ms-high-contrast:none){
+ #gt_mspf0520 .gt_contents .gt_title   > span,
+ #gt_mspf0520 .gt_contents .gt_message > span {
+      background-image: none;
+   }
+}
