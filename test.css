@@ -1,3 +1,9 @@
+
+body {
+    line-height: 1;
+    font-family: 'Roboto', "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+}
+
 .gt_contents .gt_title > span{
   font-size: 32px;
   letter-spacing: 2px;
@@ -5,8 +11,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255,255,255,0.0);
   background-image: linear-gradient(114deg, #fad19c, #f6aaaa 48%, #ec6d78);
-  font-family: 'Roboto', "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
-
 }
 
 .gt_contents .gt_message > span{
