@@ -73,7 +73,7 @@
 .timelineFlat .timeline_line {
 	margin-top:10px;
 	margin-bottom:10px;
-	width:900px;
+	width:1200px;
 }
 
 /* full (including months that are not shown) line holder */
@@ -86,7 +86,7 @@
 /* 2 months are stored in one view */
 .timelineFlat .t_line_view {
 	height:20px;
-	width:900px;
+	width:1200px;
 }
 
 
