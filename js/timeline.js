@@ -807,5 +807,5 @@ $( document ).ready(function() {
 
 // Intialise timeline, set start date (needs to be dynamic)
 $('.tl1').timeline({
-  startItem : '02/09/2016'
+  startItem : '15/11/2015'
 });
